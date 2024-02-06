@@ -1,5 +1,5 @@
-import Button from "./components/Button";
 import Counter from "./components/Counter";
+import MoviesWrapper from "./components/MoviesWrapper";
 import Text from "./components/Text"
 
 import './styles/App.css';
@@ -12,13 +12,8 @@ export function App() {
                 renderAs="h1" 
                 content="Hello World!!"
             />
-            <Text 
-                renderAs="p" 
-                content="Un texto Random" 
-                componentsProps={{ className: "italic", style: { color: "blue", justifyContent: "space-between" } }} 
-            />
-            <Button label="Clickme" action={() => console.log("Me han cliackeado!")} />
             <Counter />
+            <MoviesWrapper />
         </div>
   );
 }
