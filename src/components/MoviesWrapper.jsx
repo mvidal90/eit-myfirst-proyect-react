@@ -32,6 +32,7 @@ function MoviesWrapper() {
                         film =>
                             <Card 
                                 key={film.id}
+                                id={film.id}
                                 title={film.titulo}
                                 year={film.anio}
                                 gender={film.genero}
