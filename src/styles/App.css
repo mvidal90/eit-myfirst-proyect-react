@@ -1,8 +1,7 @@
 .app {
   text-align: center;
   background-color: #282c34;
-  min-height: 100vh;
-  padding: 3rem;
+  min-height: calc(100vh - 4.5rem);
 }
 
 .italic {
@@ -36,6 +35,7 @@
 .card__wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card__container {
@@ -50,7 +50,7 @@
 }
 
 .card__container h2 {
-  margin-top: 0;
+  padding-top: 0;
 }
 
 .searcher__input {
@@ -58,6 +58,33 @@
   border-radius: 3rem;
   height: 3rem;
   width: 20rem;
-  margin: 0.5rem;
+  margin: 2.5rem;
+  margin-left: 4rem;
   font-size: 1.5rem;
+}
+
+.button__back {
+  border: none;
+  border-radius: 3rem;
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: rgb(21, 50, 104);
+  color: white;
+  margin: 2rem;
+  width: 10rem;
+}
+
+.detail__container {
+  display: flex;
+  flex-direction: row;
+}
+
+.detail__container-data-wrapper {
+  display: flex;
+  padding: 1rem 4rem;
+}
+
+.detail__container div {
+  text-align: start;
+  width: 50%;
 }
