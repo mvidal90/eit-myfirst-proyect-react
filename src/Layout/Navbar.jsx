@@ -7,7 +7,7 @@ export default function Navbar() {
         <div>
             <Link to="/">Inicio</Link>
             <Link to="/movies/list">Películas</Link>
-            <Link to="/#">Contacto</Link>
+            <Link to="/contact">Contacto</Link>
         </div>
     </nav>
   )

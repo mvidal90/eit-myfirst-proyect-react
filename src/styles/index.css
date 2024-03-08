@@ -40,3 +40,8 @@ nav div {
 nav div a {
   margin: 1rem;
 }
+
+form label{
+  display: block;
+  margin-top: 1rem;
+}

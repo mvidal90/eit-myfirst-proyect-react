@@ -5,6 +5,7 @@ import MoviesWrapper from '../components/MoviesWrapper'
 import Detail from '../Layout/Detail'
 import Navbar from '../Layout/Navbar'
 import Trailer from '../Layout/Trailer'
+import Contact from '../pages/Contact'
 import { Home } from '../pages/Home'
 import Movies from '../pages/Movies'
 
@@ -21,6 +22,7 @@ export default function RoutesApp() {
                         <Route path="trailer" element={<Trailer />}/>
                     </Route>
                 </Route>
+                <Route path="/contact" element={<Contact />} />
             </Routes>
         </BrowserRouter>
     )

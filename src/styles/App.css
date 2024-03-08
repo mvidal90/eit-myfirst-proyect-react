@@ -88,3 +88,9 @@
   text-align: start;
   width: 50%;
 }
+
+.form-contact__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
